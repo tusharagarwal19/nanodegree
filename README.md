@@ -49,7 +49,8 @@ If you already know what email you'd like to use, great! If you'd like to use th
 
 **Configure git with your email address**
 ```bash
-git config --global user.email "YOUR_EMAIL"
+git config --global user.email "TUSHARAGARWAL19@GMAIL.COM"
+git config --global user.name "Tushar Agarwal"
 ```
    
 Now we'll finish up by initializing the repository and using the `gh` command to push the files to a new repository under you Github account. The last command uses `udacity-build-cicd-lessons` as the repository name, but you can change this to be whatever you'd like that doesn't conflict with an existing repo name in your account.
