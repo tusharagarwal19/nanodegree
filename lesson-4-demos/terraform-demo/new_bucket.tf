@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "udabucket" {
 
 # Create an EC2 instance
 resource "aws_instance" "ec2_instance" {
-  ami           = "ami-04a0ae173da5807d3"
+  ami           = "ami-0182f373e66f89c85"
   instance_type = "t2.micro"
 
   tags = {
